@@ -20,6 +20,7 @@ When applying the conversion, a lookup is performed to select the correct equati
 class LightScale
 {
 public:
+    LightScale();
     LightScale( unsigned int maxIn, unsigned int maxOut, bool invertOut, float gamma );
     ~LightScale();
 

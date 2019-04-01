@@ -6,6 +6,13 @@ extern "C" {
 
 const static int STEP_BITS = 5;
 
+LightScale::LightScale()
+{
+    // No correction required
+    m_corrections.resize(0);
+}
+
+
 LightScale::LightScale( unsigned int maxIn, unsigned int maxOut, bool invertOut, float gamma )
 {
     if ( (gamma == 1.0f) && (maxIn == maxOut) && !invertOut )
