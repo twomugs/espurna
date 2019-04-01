@@ -15,7 +15,7 @@
 #include "AnalogSensor.h"
 
 extern "C" {
-    #include "../libs/fs_math.h"
+    #include "fs_math.h"
 }
 
 class NTCSensor : public AnalogSensor {

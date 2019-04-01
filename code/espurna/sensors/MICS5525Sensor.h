@@ -15,7 +15,7 @@
 #include "BaseSensor.h"
 
 extern "C" {
-    #include "../libs/fs_math.h"
+    #include "fs_math.h"
 }
 
 class MICS5525Sensor : public BaseSensor {

@@ -13,7 +13,7 @@
 #include "Arduino.h"
 #include "I2CSensor.h"
 extern "C" {
-    #include "libs/fs_math.h"
+    #include "fs_math.h"
 }
 
 class EmonSensor : public I2CSensor {

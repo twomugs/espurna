@@ -13,7 +13,7 @@ Copyright (C) 2016-2019 by Xose Pérez <xose dot perez at gmail dot com>
 #include <vector>
 
 extern "C" {
-    #include "libs/fs_math.h"
+    #include "fs_math.h"
 }
 
 #if LIGHT_PROVIDER == LIGHT_PROVIDER_DIMMER

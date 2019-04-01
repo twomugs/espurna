@@ -10,7 +10,7 @@
 #include "Arduino.h"
 #include "BaseSensor.h"
 extern "C" {
-    #include "libs/fs_math.h"
+    #include "fs_math.h"
 }
 
 #include <SoftwareSerial.h>

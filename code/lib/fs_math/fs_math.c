@@ -6,7 +6,7 @@
 
 /* BEGIN fs_math.c */
 
-#include "libs/fs_math.h"
+#include "fs_math.h"
 
 #include <float.h>
 /*
